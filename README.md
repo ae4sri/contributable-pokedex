@@ -47,6 +47,7 @@ Remove a report from the database given its id.
 Simply run `npm run dev` to run the server in development mode, with nodemon enabled.
 
 ## Images
+*(these are of the front-end, linked above)*
 
 ### Index Page
 <img src="/readMe/indexPage.png">
