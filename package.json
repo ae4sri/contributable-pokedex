@@ -4,7 +4,6 @@
   "description": "An openly available pokedex in  which users can submit their own creations to be added",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
   },
   "author": "",
