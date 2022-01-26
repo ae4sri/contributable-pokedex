@@ -46,4 +46,22 @@ Remove a report from the database given its id.
 
 Simply run `npm run dev` to run the server in development mode, with nodemon enabled.
 
+## Images
+
+### Index Page
+<img src="/readMe/indexPage.png">
+
+### Create Page
+<img src="/readMe/createPage.png">
+
+### Search Page
+<img src="/readMe/searchPage.png">
+
+### Admin Page
+<img src="/readMe/reports page.png"
+
+### Custom Pokemon Example
+<img src="/readMe/customPokemonExample.png">
+
+### A Pokemon's Modal (what appears when "Learn More" is clicked)
 
