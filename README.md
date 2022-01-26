@@ -50,7 +50,7 @@ Simply run `npm run dev` to run the server in development mode, with nodemon ena
 *(these are of the front-end, linked above)*
 
 ### Index Page
-<img src="/readMe/indexPage.png">
+<img src="/readMe/index.png">
 
 ### Create Page
 <img src="/readMe/createPage.png">
