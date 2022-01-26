@@ -58,10 +58,11 @@ Simply run `npm run dev` to run the server in development mode, with nodemon ena
 <img src="/readMe/searchPage.png">
 
 ### Admin Page
-<img src="/readMe/reports page.png"
+<img src="/readMe/reportsPage.png">
 
-### Custom Pokemon Example
-<img src="/readMe/customPokemonExample.png">
+### Some Custom Pokemon
+<img src="/readMe/customPokemon.png">
 
 ### A Pokemon's Modal (what appears when "Learn More" is clicked)
+<img src="/readMe/kirbyModal.png">
 
