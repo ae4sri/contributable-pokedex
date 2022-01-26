@@ -6,7 +6,7 @@ The backend is a GraphQL server written in javascript, using Apollo Server. Curr
 
 ## Structure
 
-The server itself is run and defined in index.js, which uses /databaseHandlers/resolverHelper.js to handle actions for queries and mutation. /databaseHandlers/sqlQueries is fairly self-explanatory; it stores the SQL queries that resolerHelper.js will import and run using better-sqlite-3.
+The server itself is run and defined in index.js, which uses /databaseHandlers/resolverHelper.js to handle actions for queries and mutation. /databaseHandlers/sqlQueries.js stores the SQL queries that resolerHelper.js will import and run using better-sqlite-3.
 
 /utils/ simply contains one file; parsing.js, which validates input for Pokemon being contributed to the database, and returns an error should something be invalid.
 
@@ -15,11 +15,11 @@ The server itself is run and defined in index.js, which uses /databaseHandlers/r
 Given any amount of parameters, return the Pokemon filtered out using those parameters.
 
 ### numOfPokemon
-Return the number of Pokemon in the data
+Return the number of Pokemon in the database.
 
 ### seeReports
 (requires the admin key in the authorization header)
-See every report in the database.
+Returns every report in the database.
 
 ### login
 *Users do not exist in this application*. There should be an admin key stored in a .env file on the backend, <ADMIN_KEY='ExampleSecretKey'> (without the angle brackets). This query will simply return whether the authorization key in the request matches the secret key on the backend. This is necessary for the front-end to work correctly.
@@ -47,6 +47,7 @@ Remove a report from the database given its id.
 Simply run `npm run dev` to run the server in development mode, with nodemon enabled.
 
 ## Images
+*(these are of the front-end, linked above)*
 
 ### Index Page
 <img src="/readMe/indexPage.png">
@@ -58,10 +59,11 @@ Simply run `npm run dev` to run the server in development mode, with nodemon ena
 <img src="/readMe/searchPage.png">
 
 ### Admin Page
-<img src="/readMe/reports page.png"
+<img src="/readMe/reportsPage.png">
 
-### Custom Pokemon Example
-<img src="/readMe/customPokemonExample.png">
+### Some Custom Pokemon
+<img src="/readMe/customPokemon.png">
 
 ### A Pokemon's Modal (what appears when "Learn More" is clicked)
+<img src="/readMe/kirbyModal.png">
 
