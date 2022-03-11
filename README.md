@@ -12,7 +12,7 @@ The server itself is run and defined in index.js, which uses /databaseHandlers/r
 
 ## Queries 
 ### search
-Given any amount of parameters, return the Pokemon filtered out using those parameters.
+Given any amount of the specified parameters, return the Pokemon filtered out using the non-empty parameters.
 
 ### numOfPokemon
 Return the number of Pokemon in the database.
