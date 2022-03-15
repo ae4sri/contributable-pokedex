@@ -15,8 +15,6 @@
     "graphql": "^16.2.0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.1.4",
     "nodemon": "^2.0.15"
   },
   "type": "module"
