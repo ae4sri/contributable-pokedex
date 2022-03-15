@@ -53,15 +53,18 @@ Simply run `npm run dev` to run the server.
 ### Create Page
 <img src="/readMe/createPage.png">
 
+## Preview 
+<img src="/readMe/previewPage.png">
+
 ### Search Page
 <img src="/readMe/searchPage.png">
 
 ### Admin Page
 <img src="/readMe/reportsPage.png">
 
-### Some Custom Pokemon
+### Custom Pokemon
 <img src="/readMe/customPokemon.png">
 
 ### A Pokemon's Modal (what appears when "Learn More" is clicked)
-<img src="/readMe/kirbyModal.png">
+<img src="/readMe/darkModal.png">
 
